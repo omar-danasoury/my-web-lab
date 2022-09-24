@@ -9,15 +9,17 @@
 </head>
 
 <body>
-    <form action="/homepage.html">
+    <form action="homepage.html">
         <!-- The for attr is linked to the id attr in the form -->
         <label for="username">Enter your username:</label>
-        <input id="username" type="text" placeholder="Enter your username"> <br>
+        <!-- The name attr will be in the link, as it carries the parameters of the query -->
+        <!-- ex: www.website.com/form_destination.html?username=omar -->
+        <input name="username" id="username" type="text" placeholder="Enter your username"> <br>
 
         <!-- This approach is ok, but not recommended -->
         <label>
             Enter your password:
-            <input id="password" type="password" placeholder="Enter your password">
+            <input name="password" id="password" type="password" placeholder="Enter your password">
         </label>
 
         <br>
