@@ -11,7 +11,7 @@
             background-color: rgb(185, 197, 240);
         }
 
-        th{
+        th {
             background-color: #deca97;
         }
     </style>
@@ -49,6 +49,8 @@
     <hr>
     <!-- Making the table in HTML slide -->
     <table>
+        <!-- Do not forget the <caption/> tag -->
+        <caption>Statistics</caption>
         <thead>
             <th>Name</th>
             <th>Height</th>
@@ -72,7 +74,34 @@
         </tbody>
     </table>
 
-    
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Height</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Nick</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>Helen</td>
+                <td>165cm</td>
+            </tr>
+            <tr>
+                <td colspan="2">Mickey Mouse</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
