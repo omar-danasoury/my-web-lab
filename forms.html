@@ -32,7 +32,8 @@
 
         <h2>This is a TextArea</h2>
         <!-- max length is 100 char -->
-        <textarea name="firsttextarea" rows="10" cols="20" maxlength="100" title="This message will pop up when the curser stop on the the text_area">
+        <textarea name="firsttextarea" rows="10" cols="20" maxlength="100"
+            title="This message will pop up when the curser stop on the the text_area">
 
         </textarea>
     </form>
@@ -71,6 +72,24 @@
         <input id="youtube" name="search_query" type="text" placeholder="Enter search keyword">
         <br>
         <input type="submit">
+    </form>
+
+    <hr>
+    <h2>More Inputs!</h2>
+    <label for="course">Choose courses that you study this semster:</label>
+    <form action="" id="courses">
+        &emsp; <input type="checkbox" name="ITCS333" id="1">
+        <label for="1">Web Development</label>
+        <br>
+        &emsp; <input type="checkbox" name="ITCS255" id="2">
+        <label for="2">Dicrete Mathematics II</label>
+        <br>
+        <!-- when the label is clicked on it should activate/deactivate
+        the checkbox which is linked to the label through the for attr
+         (for - label ''IS LINKED TO'' id - input) -->
+        &emsp; <input type="checkbox" name="ITCS347" id="3">
+        <label for="3">Analysis and Design of Algorithms</label>
+
     </form>
 </body>
 
